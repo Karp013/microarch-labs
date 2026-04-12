@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="161.001 ns"></ZoomEndTime>
+      <Cursor1Time time="25.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb2/DUT/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/DUT/addr_tag_ff" type="array">
+      <obj_property name="ElementShortName">addr_tag_ff[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_tag_ff[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/DUT/hit_o" type="logic">
+      <obj_property name="ElementShortName">hit_o</obj_property>
+      <obj_property name="ObjectShortName">hit_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1200" type="group">
+      <obj_property name="label">state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb2/DUT/state_ram/bram" type="array">
+         <obj_property name="ElementShortName">bram[7:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">bram[7:0][1:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1198" type="group">
+      <obj_property name="label">tags</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb2/DUT/\tag_way[1].tag_ram /bram" type="array">
+         <obj_property name="ElementShortName">bram[7:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">bram[7:0][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb2/DUT/\tag_way[0].tag_ram /bram" type="array">
+         <obj_property name="ElementShortName">bram[7:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">bram[7:0][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1197" type="group">
+      <obj_property name="label">datas</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb2/DUT/\data_way[1].data_ram /bram" type="array">
+         <obj_property name="ElementShortName">bram[7:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">bram[7:0][2:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb2/DUT/\data_way[0].data_ram /bram" type="array">
+         <obj_property name="ElementShortName">bram[7:0][2:0]</obj_property>
+         <obj_property name="ObjectShortName">bram[7:0][2:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
