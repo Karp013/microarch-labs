@@ -7,6 +7,7 @@ parameter WAYS = 2
 )
 (
 input  logic                  clk_i,
+input  logic                  re,
 input  logic [ADDR_WIDTH-1:0] addr_i,
 input  logic [DATA_WIDTH-1:0] data_i,
 input  logic                  we_i,
@@ -15,8 +16,8 @@ output logic                  hit_o,
 output logic [DATA_WIDTH-1:0] data_o
 );
 
-    localparam TAG_WIDTH = ADDR_WIDTH - SET_WIDTH;
     localparam SET_WIDTH = $clog2(SETS);
+    localparam TAG_WIDTH = ADDR_WIDTH - SET_WIDTH;
 
     logic [WAYS-1 : 0] valid;
     logic [WAYS-1 : 0] hit;
